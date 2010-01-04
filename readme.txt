@@ -13,12 +13,12 @@ Link Counter helps track patterns in your blog's outgoing links. The generated r
 
 Link Counter takes the following parameters (the first argument for each is the default):
 
-dupes="no" or "yes" where "no" means duplicates in individual posts or pages are ignored; "yes" means they are counted.
-output="all" or "domain" or "link" where "all" means report on all links, organized by domain; "domain" means report only on domains; "link" means report only on links.
-target="other" or "all" where "other" means count only links to external sites; "all" means include links to the blog's domain.
-sort="alpha" or "count" or "none" where "alpha" means sort alphabetically; "count" means sort by count; "none" means no sort.
-order="ascending" or "descending" where "ascending" is 0-9 a-z; "descending" is z-a 9-0.
-scope="post" or "page" or "all" where "post" means only posts are analyzed; "page" means only pages are analyzed; "all" means all content is analyzed.
+* dupes="no" or "yes" where "no" means duplicates in individual posts or pages are ignored; "yes" means they are counted.
+* output="all" or "domain" or "link" where "all" means report on all links, organized by domain; "domain" means report only on domains; "link" means report only on links.
+* target="other" or "all" where "other" means count only links to external sites; "all" means include links to the blog's domain.
+* sort="alpha" or "count" or "none" where "alpha" means sort alphabetically; "count" means sort by count; "none" means no sort.
+* order="ascending" or "descending" where "ascending" is 0-9 a-z; "descending" is z-a 9-0.
+* scope="post" or "page" or "all" where "post" means only posts are analyzed; "page" means only pages are analyzed; "all" means all content is analyzed.
 
 Link Counter uses XHTML 1.0 code and has been tested in Wordpress 2.8.5, Wordpress 2.9, MSIE 7, MSIE 8, Firefox 3, and Safari 4.
 
