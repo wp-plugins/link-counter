@@ -48,9 +48,11 @@ Link Counter has been tested in Wordpress 2.8.5 through 3.3.1, MSIE 7, 8, and 9,
 
 * Corrected a bug with the link sort.
 * Corrected a bug with the link output. 
-* Updated the link capture regular expressions to handle some obscure cases
+* Updated the link capture regular expressions.
+* Added an "active" option to limits the count to clickable links (this is now the default).
 
 == Upgrade Notice ==
 
 = 1.1 =
-This upgrade corrects two bugs related to link sort and output and adds an "active" option. Use it to ensure that link output is handled correctly and to optionally limit output to "active" links (this is now the default).
+
+This upgrade corrects two bugs related to link sort and output, includes update regular expressions for capturing URLs, and adds an "active" option. Use it to ensure that link output is handled correctly and to optionally limit the count to clickable links (this is now the default).
