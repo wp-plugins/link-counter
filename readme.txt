@@ -38,9 +38,9 @@ Link Counter has been tested in Wordpress 2.8.5 through 3.3.1, MSIE 7, 8, and 9,
 		'order' => 'descending',
 		'scope' => 'all')); ?>`
 4.	To add the link counter to page using a shortcode, use the syntax:
-	[mklc]
+	`[mklc]`
 	Add parameters to this short code using the syntax: parameter="value" -- for example:
-	[mklc sort="alpha" scope="page"]
+	`[mklc sort="alpha" scope="page"]`
 
 == Changelog ==
 
