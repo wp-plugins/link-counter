@@ -28,15 +28,15 @@ Link Counter has been tested in Wordpress 2.8.5 through 3.3.1, MSIE 7, 8, and 9,
 1.	Upload the link-counter directory to the wp-content/plugins directory of your Wordpress install. 
 2.	Activate the plugin through the Plugins menu in Wordpress. 
 3.	To add the link counter to a page via a template, use the code:
-	&gt;?php mklc(); ?>
+	`<?php mklc(); ?>`
 	Add parameters to this function call by placing them in an array -- for example:
-	&gt;?php  mklc(array('dupes' => 'yes',
+	`<?php  mklc(array('dupes' => 'yes',
 		'output' => 'link',
 		'active' => 'no',
 		'target' => 'all',
 		'sort' => 'count',
 		'order' => 'descending',
-		'scope' => 'all')); ?>
+		'scope' => 'all')); ?>`
 4.	To add the link counter to page using a shortcode, use the syntax:
 	[mklc]
 	Add parameters to this short code using the syntax: parameter="value" -- for example:
